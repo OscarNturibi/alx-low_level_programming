@@ -2,28 +2,27 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main - printing numbers from 0-9 with commas and space between them
+*main -printing numbers from 0-9 with commas and space between them
  *
  *Description:using the main function
- *Return: 0
+ *Return:0
  */
 int main(void)
 {
 	int c;
 
-	for (c = 48; c <= 57; c++)
+	for (c = '48'; c <= '57'; c++)
 {
 		putchar(c);
 
 		if (c != '5')
 		{
 			putchar(',');
-		}
-		{
 			putchar(' ');
 		}
 }
-{		putchar('\n);
+{
+	putchar('\n');
 }
 	return (0);
 }
