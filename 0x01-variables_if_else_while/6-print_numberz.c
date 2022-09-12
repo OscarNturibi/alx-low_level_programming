@@ -2,16 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - Entry point
+*main - print if the number is positive, zero, or negative
  *
- *Return: Always 0 (Success)
- */
+ *Description:using the main function
+ *Return: 0
+*/
 int main(void)
 {
-	int d;
+	int n;
 
-	for (d = '0' ; d <= '9' ; d++)
-		putchar(d);
+	for (n = '0'; n <= '9'; n++)
+{
+		putchar(n);
+}
+{
 		putchar('\n');
+}
 	return (0);
 }
