@@ -2,20 +2,20 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main -printing numbers from 0-9 with commas and space between them
+*main - print if the number is positive, zero, or negative
  *
  *Description:using the main function
- *Return:0
+ *Return: 0
  */
 int main(void)
 {
-	int c;
+	char c;
 
-	for (c = '48'; c <= '57'; c++)
+	for (c = '0'; c <= '9'; c++)
 {
 		putchar(c);
-
-		if (c != '5')
+}
+		if (c != '9')
 		{
 			putchar(',');
 			putchar(' ');
