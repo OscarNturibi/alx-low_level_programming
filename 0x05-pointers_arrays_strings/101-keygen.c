@@ -16,14 +16,14 @@ int main(void)
 	char p[58];
 
 	srand(time(NULL));
-	while (S != 2772)
+	while (s != 2772)
 	{
 		i = k = s = 0;
 		while ((2772 - 122) > s)
 		{
 			j = rand() % 62;
 			p[i] = c[j];
-			s += cj[j];
+			s += c[j];
 			i++;
 		}
 	while (c[k])
