@@ -1,24 +1,3 @@
-main.h.txt
-Who has access
-A
-System properties
-Type
-Text
-Size
-456 bytes
-Storage used
-456 bytes
-Location
-More functions, more nested loops
-Owner
-Antony Bahati
-Modified
-1:49 PM by Antony Bahati
-Created
-1:51 PM
-No description
-Viewers can download
-
 #ifndef MAIN_H
 #define MAIN_H
 
