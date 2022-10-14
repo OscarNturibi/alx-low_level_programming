@@ -29,5 +29,5 @@ int main(int argc, char *argv[])
 	}
 	c = f(a, b);
 	printf("%d\n", c);
-	return (0)
+	return (0);
 }
